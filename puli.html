@@ -1,0 +1,179 @@
+<html lang="en">
+    <head>
+        <title>APCamping</title>
+        <style>
+            #myVideo {
+                position: fixed;
+                right: 0;
+                bottom: 0;
+                min-width: 100%;
+                min-height: 100%;
+            }
+        </style>
+        <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="./css/netglobalani.css"/>
+        <link rel="stylesheet" type="text/css" href="./css/netappssimple.css"/>
+        <script src="./scripts/netappsvalidation.js"></script> 
+    </head>
+    <body>
+        <video autoplay muted loop id="myVideo" 
+               style="opacity:0.4;">
+            <source src="./videos/backapmixnice.webm" type="video/webm">
+            Your browser does not support HTML5 video.
+        </video>
+        <div class="topcontent">
+            <table style="width:100%;height:150px">
+                <tr>
+                    <td style="width:90px">
+                        <a href="index.html" rel="noopener">
+                            <img src="./images/tent.png"  
+                                 alt="pi" width="80" height="80">
+                        </a>
+                    </td>
+                    <td> 
+                <center>
+                    <p class='headertext'>Reservation's APCamping</p>
+                </center>
+                </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                <center>
+                    <p class='subheader'>
+                        Use your
+                        <img src="./images/pi.png"  
+                             alt="pi" width="30" height="30">
+                        for reservation
+                    </p>
+                </center>
+                </td>
+                </tr>
+            </table>
+        </div>       
+        <div class="row content">
+            <div class="col-sm-8"> 
+                <p class="subtextdesc">
+                    Puligadda, AP <br>
+                    Only 7
+                    <img src="./images/pi.png"  
+                         alt="pi" width="30" height="30">
+                    per day.
+                </p>
+                <table>
+                    <tr>
+                        <td>
+                            <div  class="video-form formani">
+                                <video autoplay muted style="opacity:0.3;">
+                                    <source 
+                                        src="./videos/puli.webm" type="video/webm"/>
+                                </video>
+                                <div class="formtext">
+                                    <center>
+                                        <form name="registerForm" onsubmit="return validateRegisterrecap(this);" 
+                                              method="post" action="ServletRegisterService" autocomplete="on">
+                                            <table>
+                                                <tr> <td colspan="2">&nbsp;</td></tr>
+                                                <tr> <td colspan="2">&nbsp;</td></tr>
+                                                <tr> <td colspan="2">&nbsp;</td></tr>
+                                                <tr> <td colspan="2">&nbsp;</td></tr>
+                                                <tr>
+                                                    <td>
+                                                        <label for="name">Name</label>
+                                                    </td>
+                                                    <td>
+                                                        <input  type="text" id="name" name="name">
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <label for="name">PI UserName</label>
+                                                    </td>
+                                                    <td>
+                                                        <input  type="text" id="name" name="name">
+                                                    </td>
+                                                </tr>
+                                                <tr> <td colspan="2">&nbsp;</td></tr>
+                                                <tr>
+                                                    <td colspan="2" style="text-align: center;">
+                                                        <label for="name">Dates</label>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2" style="text-align: center;">
+                                                        From<input type="date" id="fromdate" name="fromdate">
+                                                        <br>
+                                                        &nbsp;To&nbsp;&nbsp;<input type="date" id="todate" name="todate">
+                                                    </td>     </tr>
+                                                <tr> <td colspan="2">&nbsp;</td></tr>
+                                                <tr>
+                                                    <td colspan="2" style="text-align: center;">
+                                                        <label for="total">PI Coin Total :: </label>
+                                                        <label for="total">0 Pi</label>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2" style="text-align: center;">
+                                                        <label for="comment">Comments</label>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2"> 
+                                                        <textarea name="comment" cols="36" rows="3"></textarea>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2" style="text-align: center; width:100px;">
+                                                        <button class="netbutton" type="submit" value="Register">
+                                                            Submit
+                                                        </button>  
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </form>
+                                    </center>
+                                </div>
+                            </div>     
+                        </td>
+                    </tr>
+                </table>  
+            </div>   
+            <div class='rightcontent'>
+                <center>
+                    <br>BlockChain Client<br> Jcarx API<br>
+                    <a href="https://jcarx.com" target="_blank" rel="noopener">
+                        <img src="./images/progress.gif" 
+                             alt="Whatsup us" width="60" height="60"></a><br>
+                    WhitePapers
+                    <br>
+                    <a href="https://minepi.com" target="_blank" rel="noopener">
+                        <img src="./images/piacpted.png" 
+                             alt="minepi.com" width="160" height="160"></a>
+                    <br>
+                    <br>What'sUp <br>            
+                    <a href="https://wa.me/?" target="_blank" rel="noopener">
+                        <img src="./images/em32.webp" 
+                             alt="Whatsup us" width="60" height="60"></a><br>
+                    APCamping
+                    <br>
+                    <a href="https://minepi.com" target="_blank" rel="noopener">
+                        <img src="./images/pijoin.png"  
+                             alt="Pi Join" width="160" height="160"></a>
+                </center>
+            </div>               
+        </div> 
+        <div class='footercontent'>
+            <center>
+                <a href='https://www.jcarx.com/NetAppsOcean/privacy.jsp' target="_blank">
+                    &nbsp;BlockChain Client API by Jcarx WhitePaper</a><br>
+                (c) 2022 <a href='https://www.jcarx.com' target="_blank">Jcarx.com</a>
+                &nbsp;&nbsp;&nbsp;        
+                <a href='https://www.jcarx.com/NetAppsOcean/privacy.jsp' target="_blank">Privacy</a>
+                &nbsp;This Site is Proof of Concept.  (Beta) <br>                   
+            </center>
+        </div>
+        <br><br>
+        <script src="./scripts/jquery.min.1.11.1.js"></script>  
+        <script src="./scripts/bootstrap.min.js"></script>
+    </body>
+</html>
+
