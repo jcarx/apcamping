@@ -105,8 +105,12 @@
 
 .linkaniroll2{
     opacity: 0;
-    border: 5px solid #c0c0c0;
+    border: 5px;
     border-style: inset;
+    border-top-color: red;
+    border-left-color: wheat;
+    border-right-color: whitesmoke;
+    border-bottom-color: white;
     width: 260px;
     height: 260px;
     margin-top: 2px;
