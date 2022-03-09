@@ -1,6 +1,10 @@
 .linkaniroll1{
     opacity: 0;
-    border: 5px solid #c0c0c0;
+    border: 5px solid;
+    border-top-color: whitesmoke;
+    border-left-color: rgb(203, 245, 179);
+    border-right-color: rgb(0, 255, 221);
+    border-bottom-color: white;
     border-style: inset;
     width: 260px;
     height: 260px;
@@ -108,8 +112,8 @@
     border: 5px;
     border-style: inset;
     border-top-color: red;
-    border-left-color: wheat;
-    border-right-color: whitesmoke;
+    border-left-color: rgb(203, 245, 179);
+    border-right-color: red;
     border-bottom-color: white;
     width: 260px;
     height: 260px;
@@ -213,7 +217,11 @@
 }
 .linkaniroll3{
     opacity: 0;
-    border: 5px solid #c0c0c0;
+    border: 5px solid;
+    border-top-color: rgb(255, 2, 2);
+    border-left-color: rgb(251, 252, 255);
+    border-right-color: rgb(47, 0, 255);
+    border-bottom-color: rgb(3, 1, 1);
     border-style: inset;
     width: 260px;
     height: 260px;
