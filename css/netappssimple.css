@@ -20,6 +20,8 @@
 .subtextdesc{
     padding-left: 100px;
     font-size: 20px;
+    color: #fff;
+    font-weight: 500;
     font-family: 'class="formtext"class="formtext"Roboto', Sans-Serif , monospace;
 }
 .rightcontent {
@@ -47,13 +49,13 @@ td{
 a{
     text-decoration: none;
 }
-a:link {
-    color: #000;
+a:any-link{
+    color: rgb(252, 249, 250);
     opacity:1.0;
-    text-decoration: none;
+    font-weight: 500;
 }
 a:hover {
-    color: #fff;
+    color: rgb(9, 248, 41);
     text-decoration: none;
 }
 /* begin global buttons */

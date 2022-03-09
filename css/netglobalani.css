@@ -325,8 +325,12 @@
 }
 .formani{
     opacity: .0;
-    border: 5px solid #c0c0c0;
+    border: 5px solid;
     border-style: inset;
+    border-top-color: rgb(2, 255, 78);
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(113, 241, 130);
     width: 480px;
     height: 360px;
     margin-top: 2px;
